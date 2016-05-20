@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>aubio.github.io by aubio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">aubio.github.io</h1>
+      <h2 class="project-tagline">aubio.github.io</h2>
+    </section>
+
+    <section class="main-content">
+      <h1>
+<a id="aubio-library" class="anchor" href="#aubio-library" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>aubio library</h1>
+
+<p>aubio is a library to label music and sounds. It listens to audio signals and
+attempts to detect events. For instance, when a drum is hit, at which frequency
+is a note, or at what tempo is a rhythmic melody.</p>
+
+<p>Its features include segmenting a sound file before each of its attacks,
+performing pitch detection, tapping the beat and producing midi streams from
+live audio.</p>
+
+<p>aubio provide several algorithms and routines, including:</p>
+
+<ul>
+<li>several onset detection methods</li>
+<li>different pitch detection methods</li>
+<li>tempo tracking and beat detection</li>
+<li>MFCC (mel-frequency cepstrum coefficients)</li>
+<li>FFT and phase vocoder</li>
+<li>up/down-sampling</li>
+<li>digital filters (low pass, high pass, and more)</li>
+<li>spectral filtering</li>
+<li>transient/steady-state separation</li>
+<li>sound file and audio devices read and write access</li>
+<li>various mathematics utilities for music applications</li>
+</ul>
+
+<p>The name aubio comes from <em>audio</em> with a typo: some errors are likely to be
+found in the results.</p>
+
+<h2>
+<a id="python-module" class="anchor" href="#python-module" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Python module</h2>
+
+<p>A python module to access the library functions is also provided. Please see
+the file <code>python/README</code> for more information on how to use it.</p>
+
+<h2>
+<a id="examples-tools" class="anchor" href="#examples-tools" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Examples tools</h2>
+
+<p>A few simple command line tools are included along with the library:</p>
+
+<ul>
+<li>
+<code>aubioonset</code> outputs the time stamp of detected note onsets</li>
+<li>
+<code>aubiopitch</code> attempts to identify a fundamental frequency, or pitch, for
+each frame of the input sound</li>
+<li>
+<code>aubiomfcc</code> computes Mel-frequency Cepstrum Coefficients</li>
+<li>
+<code>aubiotrack</code> outputs the time stamp of detected beats</li>
+<li>
+<code>aubionotes</code> emits midi-like notes, with an onset, a pitch, and a duration</li>
+<li>
+<code>aubioquiet</code> extracts quiet and loud regions</li>
+</ul>
+
+<p>Additionally, the python module comes with the following script:</p>
+
+<ul>
+<li>
+<code>aubiocut</code> slices sound files at onset or beat timestamps</li>
+</ul>
+
+<h2>
+<a id="documentation" class="anchor" href="#documentation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Documentation</h2>
+
+<p>The documentation can be found at: <a href="https://aubio.org/documentation">https://aubio.org/documentation</a>.</p>
+
+<h2>
+<a id="build-and-installation-instructions" class="anchor" href="#build-and-installation-instructions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Build and Installation Instructions</h2>
+
+<p>Installation instructions can be found at: <a href="http://aubio.org/installation">http://aubio.org/installation</a>.</p>
+
+<h2>
+<a id="author-and-contact-info" class="anchor" href="#author-and-contact-info" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Author and Contact Info</h2>
+
+<p>The home page of this project can be found at: <a href="https://aubio.org/">https://aubio.org/</a></p>
+
+<p>This software has been written by Paul Brossier and several other contributors.</p>
+
+<h2>
+<a id="copyright-and-license-information" class="anchor" href="#copyright-and-license-information" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Copyright and License Information</h2>
+
+<p>Copyright (C) 2003-2013 Paul Brossier <a href="mailto:piem@aubio.org">piem@aubio.org</a></p>
+
+<p>aubio is free software: you can redistribute it and/or modify it under the
+terms of the GNU General Public License as published by the Free Software
+Foundation, either version 3 of the License, or (at your option) any later
+version.</p>
+
+      <footer class="site-footer">
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+</html>
